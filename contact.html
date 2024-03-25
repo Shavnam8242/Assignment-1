@@ -1,0 +1,130 @@
+   <!--Shavnam-Shavnam--->
+    <!--Student Id- 8918242-->
+    <!--Assignment 2-->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This webpage is about the Biography of Dr. B.R Ambedkar.">
+        <meta name="keywords" content="Bhimrao,ambedkar,Dr. BR,biography,india,Father of the constitution,constitution,India,">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <title>Biography of Dr. Bhimrao Ambedkar</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Dr. B.R Ambedkar</h1>
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li id="home-link"> <a href="index.html">Home</a></li>
+                <li id="contact-link"> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main id="main-section">
+            <form name="contact" id="contact" method="post" action="contact.php">
+            
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required autofocus placeholder="Your Full Name">
+                </div>    
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email Address">
+                </div>
+                
+                <div>
+                    <label for="birthdate">Birth Date:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                </div>    
+                
+                <div>
+                    <label for="phone">Phone No.</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber">
+                </div>
+                
+                <div>    
+                    <label for="reason">Reason for Contacting:</label>
+                    <select id="reason" name="reason">
+                        <option selected>Select a Reason</option>
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>  
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+
+                <div>
+                    <label for="robot">I am not a Robot</label>
+                    <input type="checkbox" id="not-robot" name="not-robot">
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            
+            </form>
+        </main>
+
+        <aside id="side-section">
+            <section>
+                <h3>FAQs</h3>
+                <table>
+
+                    <tbody>
+                    <tr>
+                        <th>title</th>
+                        <td>data</td>
+                    </tr>
+
+                    <tr>
+                        <th>title</th>
+                        <td>data</td>
+                    </tr>
+
+                    <tr>
+                        <th>title</th>
+                        <td>data</td>
+                    </tr>
+
+                    <tr>
+                        <th>title</th>
+                        <td>data</td>
+                    </tr>
+
+                    <tr>
+                        <th>title</th>
+                        <td>data</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            </section>
+
+            <section>
+                <h3>External Links</h3>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/B._R._Ambedkar">Bio-Dr.Br Ambedkar</a></li>
+                    <li><a href="https://main.sci.gov.in/AMB/">Advocate</a></li>
+                    <li><a href="https://globalcenters.columbia.edu/content/mumbai-bhimrao-ramji-ambedkar">Education</a></li>
+                </ul>
+            </section>
+
+        </aside>
+
+        <footer id="clear-element">
+            <p>&copy; 2024 Shavnam shavnam</p>
+        </footer>
+    </body>
+
+    </html>

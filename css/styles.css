@@ -1,28 +1,34 @@
+/*Name - Shavnam shavnam*/
+/*Student ID - 8918242*/
+/*Assignment 2*/
+
 html {
     font: normal normal 400 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*Created a multiple element list selector for h1 and h2 to set font varibles*/
+ /*Created a multiple element list selector for h1 and h2 to set font varibles*/
 h1, h2 {
     font-variant: small-caps;
     text-align: center;
-    color: rgb(62, 83, 179);
+    color: rgb(15, 53, 80);
+    padding: 0.25rem;
+    margin:0.25rem;
 }
 
 
 
-/*Created a ruleset to set the font size of q element*/
+ /*Created a ruleset to set the font size of q element*/
 q {
     font-style: italic;
     font-family: cursive;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
-/*Created a ruleset using class element sections nested in the main to center and added padding to it.*/
+ /*Created a ruleset using class element sections nested in the main to center and added padding to it.*/
 .main-section{
     text-align: center; 
-    padding: 32px;
-    background-color: hsla(197, 8%, 82%, 0.882);
+    padding: 2rem;
+    background-color: hsla(36, 33%, 94%, 0.882);
 }
 
 /*Created a ruleset to set the font size of footer p element*/
@@ -33,9 +39,9 @@ footer p {
 /*Created a ruleset for body element*/
 body {
     width: 100%; 
-    max-width: 1500px; 
+    max-width: 93.75rem; 
     margin: 0 auto;
-    padding: 16px;
+    padding: 1rem;
 }
 
 /*Created a ruleset for image elements elements*/
@@ -47,8 +53,8 @@ image{
 
 /*Added to the rulest for the figure elemet*/
 figure{
-    padding: 16px; /* Adds padding to all sides of each figure */
-    margin: 32px auto; /* Adds margin to the top and bottom, and sets left and right margins to auto for centering */
+    padding: 1rem; /* Adds padding to all sides of each figure */
+    margin: 2rem auto; /* Adds margin to the top and bottom, and sets left and right margins to auto for centering */
 }
 
 /*Created a ruleset for main section figure elements*/
@@ -56,8 +62,8 @@ figure{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 32px;
-    padding: 16px; /*added padding to it*/
+    margin: 2rem;
+    padding: 1rem; /*added padding to it*/
     border-radius: 0.5rem; /*It rounds the border*/ 
 }
 
@@ -67,21 +73,21 @@ figure{
     width: 30%; 
     height: auto;
     align-content: center;
-    padding: 16px;
-    border: 0.2rem solid rgb(0, 0, 0);
+    padding: 1rem;
+    border: 0.2rem solid rgb(3, 0, 0);
     border-radius: 0.5rem;
-    background-color: hsla(0, 0%, 0%, 0.953);
+    background-color: hsla(240, 79%, 91%, 0.5);
 }
 
-/*Height and width of the relative-path-image*/
+/*Adjusted the height and width of the relative-path-image*/
 #relative-path-image img {
-    width: 60%; 
-    height: auto;
+    width: 35%; 
+    height: 50%;
     align-content: center;
-    padding: 16px;
-    border: 0.2rem solid rgb(0, 0, 0);
+    padding: 1rem;
+    border: 0.2rem solid rgb(196, 196, 249);
     border-radius: 0.5rem;
-    background-color: hsla(0, 0%, 0%, 0.916);
+    background-color: hsla(264, 72%, 86%, 0.916);
 }
 
 /*Created a ruleset to set the font size of figcaption element*/
@@ -92,40 +98,149 @@ figcaption {
     font-size: 1.2em;
 }
 #relative-path-image figcaption{
-    color: rgb(7, 17, 86);
+    color: rgb(5, 5, 5);
 }
 
 #absolute-path-image figcaption{
-    color: rgb(4, 24, 108);
+    color: rgb(6, 0, 2);
 }
 
-/*Ruleset for iframe elements*/
+/*Created a ruleset for iframe elements*/
 section iframe{
-    width: 80%;
-    height: 700px;
-    padding: 16px; /*Adds padding to all sides*/
-    border: 0.2rem solid rgba(0, 0, 0, 0.885);
+    width: 100%;
+    height: 42.75rem;
+    padding: 1rem; /*Adds padding to all sides*/
+    border: 0.2rem solid rgb(78, 76, 84);
     border-radius: 0.5rem;/*round the corners*/
-    border: 0.2rem solid rgba(0, 0, 0, 0.521);
+    border: 0.2rem solid rgb(12, 127, 165);
 }
 
-/*Maintaing the header and footer to be in center using a multiple list element selector*/
+/*Aligning the header and footer to be in center using a multiple list element selector*/
 header, footer{
     text-align: center;
-    border: 2px solid #911849a0;
-    background: linear-gradient(to right, red, white, green);
+    border: 0.125rem solid #557b80;
+    background: linear-gradient(to right, orangered, whitesmoke, greenyellow);
 }
 
-/* Ruleset for biography blockquote to align the text to left*/
+/*Added a ruleset for biography blockquote to align the text to left*/
 #bio{
     text-align: left;
     
 }
 
-/* Ruleset for the blockquote with the q element to add padding to all sides*/
+/*Created a ruleset for the blockquote with the q element to add padding to all sides*/
 #quote{
-    padding: 16px;
-    box-shadow: 10px 10px 20px green,(14, 135, 34), -10px 10px 15px blueviolet, -10px -10px 15px orange;    
+    padding: 2rem;
+    box-shadow: 0.625rem 0.625rem 1.25rem greenyellow, -0.625rem 0.625rem 0.938rem blanchedalmond, -0.625rem -0.625rem 0.938rem orange;    
 }
 
+/*Asignment 2*/
+nav{
+    text-align: center;
+    /*color: green;*/
+    padding:0 1rem 2rem;
+    background-color: whitesmoke;
+}
 
+nav ul{
+    list-style-type: none;/*Remove the sots from the list*/
+    padding: 0.25rem;
+    margin: 0 0.25rem;
+}
+
+/*Align Home Link to Left side*/
+#home-link{
+    float: left;
+    width: 49.5%;
+}
+
+/*Align Contact Link to Right side*/
+#contact-link{
+    float: right;
+    width: 49.5%;  
+}
+
+/*Navigating it to left side of the page*/
+#main-section{
+    float: left;
+    width: 68%;
+}
+
+/*Navigating it to rigth side of the page*/
+#side-section{
+    float: right;
+    width: 25%;
+}
+    
+#clear-element{
+    clear: both;
+    width: 100%;
+}
+
+nav ul li{
+    border: 0.1rem solid #02649d;
+    background-color: burlywood;
+}
+
+nav a{
+    color: #034b7f;
+    font-variant: small-caps;
+    font-size: 1.25rem;
+    background-color: rgb(232, 255, 170);
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{ /*changes color on hovering*/
+    color: white;
+    background-color: #098b2a;
+    border: 0.1rem solid white;
+}
+
+/*Navigating it to left side of the page*/
+#biography{
+    float: left;
+    width: 49.5%
+}
+
+/*Navigating it to right side of the page*/
+#image{
+    float: right;
+    width: 49.5%;
+}
+
+a:hover{
+    color: orangered;
+}
+
+/*Changing the font and color of heading 3 and aligning it to center*/
+h3{
+    font-variant: small-caps;
+    color: rgb(43, 42, 44); 
+    text-align: center; /* Center-aligns the text */
+}
+
+aside table {
+    width: 100%; /* Adjust based on your layout */
+    border-collapse: collapse; /* Collapses the border between cells */
+}
+
+aside th, aside td {
+    border: 0.125rem solid #0b0000; /* Example: Black border */
+    text-align: center; /* Centers text within cells */
+    padding: 8px; /* Adjust padding as needed */
+}
+
+aside th {
+    font-weight: bold; /* Makes table headings bold */
+    font-style: italic; /* Example: italic style for headings */
+    font-variant: small-caps; /* Example: small-caps variant for headings */
+    color: #040322; /* Example: Royle blue color for headings */
+}
+
+aside td {
+    font-weight: normal; /* Normal font weight for data cells */
+    font-style: normal; /* Normal font style for data cells */
+    color: #00090c; /* Example: black color for data */
+}
